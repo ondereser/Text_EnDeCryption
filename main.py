@@ -40,5 +40,8 @@ decMessage = fernet.decrypt(encMessage).decode()
 print("decrypted string: ", decMessage)
 
 file = open("mesaj.txt","w",encoding="utf-8")
+file.write(str(encMessage))
+file.write('\n')
 file.write(decMessage)
 file.close()
+
