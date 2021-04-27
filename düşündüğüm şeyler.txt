@@ -1,4 +1,0 @@
-1+++- normal bir şekilde en/decryption yap
-2- txt formatındaki metinden al en/decryption yap
-3- mail olarak gönder
-4- gui oluştur.
